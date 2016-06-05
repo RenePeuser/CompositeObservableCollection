@@ -7,9 +7,9 @@ using System.Windows.Markup;
 
 namespace CompositeObservableCollection
 {
-    public class ObservableCollectionsToCompositeCollectionConverter : MarkupExtension, IMultiValueConverter
+    public class ObservableCollectionsToCompositionCollectionConverter : MarkupExtension, IMultiValueConverter
     {
-        private static readonly ObservableCollectionsToCompositeCollectionConverter Instance = new ObservableCollectionsToCompositeCollectionConverter();
+        private static readonly ObservableCollectionsToCompositionCollectionConverter Instance = new ObservableCollectionsToCompositionCollectionConverter();
         public override object ProvideValue(IServiceProvider serviceProvider)
         {
             return Instance;

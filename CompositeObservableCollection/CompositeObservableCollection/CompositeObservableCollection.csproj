@@ -71,7 +71,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindowViewModel.cs" />
-    <Compile Include="ObservableCollectionsToCompositeCollectionConverter.cs" />
+    <Compile Include="ObservableCollectionsToCompositionCollectionConverter.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
